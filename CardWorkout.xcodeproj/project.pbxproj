@@ -13,6 +13,7 @@
 		F3FB589B2A6BD14900E1CC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FB589A2A6BD14900E1CC54 /* Assets.xcassets */; };
 		F3FB589E2A6BD14900E1CC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FB589C2A6BD14900E1CC54 /* LaunchScreen.storyboard */; };
 		F3FB58A62A6BD51D00E1CC54 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB58A52A6BD51D00E1CC54 /* CardSelectionVC.swift */; };
+		F3FB58A82A6BF82E00E1CC54 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB58A72A6BF82E00E1CC54 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F3FB589D2A6BD14900E1CC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FB589F2A6BD14900E1CC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3FB58A52A6BD51D00E1CC54 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		F3FB58A72A6BF82E00E1CC54 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F3FB58912A6BD14800E1CC54 /* AppDelegate.swift */,
 				F3FB58932A6BD14800E1CC54 /* SceneDelegate.swift */,
 				F3FB58A52A6BD51D00E1CC54 /* CardSelectionVC.swift */,
+				F3FB58A72A6BF82E00E1CC54 /* Card.swift */,
 				F3FB58972A6BD14800E1CC54 /* Main.storyboard */,
 				F3FB589A2A6BD14900E1CC54 /* Assets.xcassets */,
 				F3FB589C2A6BD14900E1CC54 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F3FB58922A6BD14800E1CC54 /* AppDelegate.swift in Sources */,
 				F3FB58942A6BD14800E1CC54 /* SceneDelegate.swift in Sources */,
 				F3FB58A62A6BD51D00E1CC54 /* CardSelectionVC.swift in Sources */,
+				F3FB58A82A6BF82E00E1CC54 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
