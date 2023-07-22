@@ -23,18 +23,6 @@
                                     <constraint firstAttribute="width" constant="250" id="dzW-bt-mIc"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09R-oO-gqB">
-                                <rect key="frame" x="71" y="574" width="260" height="50"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="0qL-x0-j6U"/>
-                                    <constraint firstAttribute="height" constant="50" id="CRr-mT-G6z"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Stop">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uK-4j-YRj">
                                 <rect key="frame" x="71" y="642" width="115.00000000000001" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -59,6 +47,21 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09R-oO-gqB">
+                                <rect key="frame" x="69" y="568" width="260" height="50"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="0qL-x0-j6U"/>
+                                    <constraint firstAttribute="height" constant="50" id="CRr-mT-G6z"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="stopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZK-8G-dkB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -73,6 +76,12 @@
                             <constraint firstItem="BcK-cx-Q6K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z3S-qg-74e"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="CardImageView" destination="BcK-cx-Q6K" id="SAY-yj-9dE"/>
+                        <outletCollection property="buttons" destination="09R-oO-gqB" collectionClass="NSMutableArray" id="jdL-Sd-xfd"/>
+                        <outletCollection property="buttons" destination="2uK-4j-YRj" collectionClass="NSMutableArray" id="RNT-Cv-ZMg"/>
+                        <outletCollection property="buttons" destination="SbX-qC-VXr" collectionClass="NSMutableArray" id="3Xb-42-xP9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
