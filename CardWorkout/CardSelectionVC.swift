@@ -21,4 +21,10 @@ class CardSelectionVC: UIViewController {
     
     @IBAction func stopButtonTapped(_ sender: UIButton) {
     }
+    
+    @IBAction func restartButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func rulesButtonTapped(_ sender: UIButton) {
+    }
 }
